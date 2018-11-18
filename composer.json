@@ -1,0 +1,8 @@
+{
+    "require": {
+        "mgp25/instagram-php": "dev-master"
+    },
+    "require-dev": {
+        "symfony/dotenv": "^4.1"
+    }
+}
