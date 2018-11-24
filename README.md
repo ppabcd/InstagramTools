@@ -31,7 +31,7 @@ You'll get new .json files(allFollowers.json, allFollowing.json, followers.json,
 - following.json (Following not follback you)
 
 
-When all .json file generated you can choose  what you want next.
+When all .json file generated you can choose what you want next.
 ```
 php <filename>.php
 ```
