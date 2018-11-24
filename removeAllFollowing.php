@@ -18,7 +18,7 @@ try{
     // Login
     $ig->login($username, $password);
 
-    $file = json_decode(file_get_contents("following.json"));
+    $file = json_decode(file_get_contents("allFollowing.json"));
     foreach($file as $user){
         $userId = $ig->people->getUserIdForName($user);
         

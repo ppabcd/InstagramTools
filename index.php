@@ -92,6 +92,8 @@ try {
     } while($max_id != null);
     sort($following);
     sort($followers);
+    file_put_contents("allFollowing.json",indent(json_encode($following)));
+    file_put_contents("allFollowers.json",indent(json_encode($followers)));
     $d_followers =[];
     $d_following =[];
     foreach($followers as $folls){
@@ -111,7 +113,7 @@ try {
     // Output who not you follback
     file_put_contents("followers.json",indent(json_encode($d_followers)));
 
-    echo "Success. Please check followers.json and following.json\n";
+    echo "Success. Please check allFollowing.json, allFollowers.json, followers.json and following.json\n";
 } catch (\Exception $e) {
     echo 'Something went wrong: '.$e->getMessage()."\n";
     exit(0);
