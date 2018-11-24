@@ -1,3 +1,5 @@
 .env
 *.lock
 vendor
+followers.json
+following.json
