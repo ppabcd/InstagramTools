@@ -27,8 +27,8 @@ php index.php
 You'll get new .json files(allFollowers.json, allFollowing.json, followers.json, following.json).
 - allFollowers.json (All followers your target instagram)
 - allFollowing.json (All following your target instagram)
-- followers.json (All followers you not followback)
-- following.json (Following not follback you)
+- followers.json (All followers target not followback)
+- following.json (Following not follback by target)
 
 
 When all .json file generated you can choose what you want next.
